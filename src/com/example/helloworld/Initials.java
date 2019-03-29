@@ -18,3 +18,5 @@ public class Initials
         System.out.println("Your intials are: " + fullNameInitials);
     }
 }
+
+// Done
