@@ -19,6 +19,6 @@ public class FixDebugThree1
         double tip = bill + RATE;
         DecimalFormat df=new DecimalFormat("#.##");
         System.out.println("The tip should be at least $" + df.format(tip));
-        return tip;
+        return bill;
     }
 }
