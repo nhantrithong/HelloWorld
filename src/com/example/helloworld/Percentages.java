@@ -15,7 +15,7 @@ public class Percentages
     {
         DecimalFormat df=new DecimalFormat("#.##");
         double percent = (var3 / var4) * 100;
-        System.out.println("The percentage value between these two values respectively is: %" + df.format(percent));
+        System.out.println("The percentage value between these two values respectively is: " + df.format(percent) + "%");
     }
 }
 
