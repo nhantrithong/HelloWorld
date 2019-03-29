@@ -8,7 +8,7 @@ public class Initials
     {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter full name: ");
-        String fullName = scan.nextLine();
+        String fullName = scan.nextLine(); //This line of code is used to assign input to the fullName variable
         String[] parts = fullName.split(" ");
         String firstName = parts[0];
         String middleName = parts[1];
