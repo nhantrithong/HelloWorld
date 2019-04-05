@@ -15,8 +15,6 @@ public class CondoSales
         if (selection == 1)
         {
             System.out.println("Condos with park views are listed at a total price of $150,000");
-            boolean validity;
-            validity = true;
         }
         else if (selection == 2)
         {
