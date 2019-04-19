@@ -17,7 +17,6 @@ public class CountMovieSpaces1and2
         int length = quote.replaceAll("[^ ]","").length();
         System.out.println("The number of spaces in this quote is equal to: " + length + " spaces");
     }
-
 }
 
 
